@@ -55,12 +55,12 @@ def main():
 
 if __name__ == "__main__":
     # Twitter API credentials
-    CONSUMER_KEY = os.getenv(CONSUMER_KEY)
-    CONSUMER_SECRET = os.getenv(CONSUMER_SECRET)
-    ACCESS_TOKEN = os.getenv(ACCESS_TOKEN)
-    ACCESS_TOKEN_SECRET = os.getenv(ACCESS_TOKEN_SECRET)
+    CONSUMER_KEY = os.getenv("CONSUMER_KEY")
+    CONSUMER_SECRET = os.getenv("CONSUMER_SECRET")
+    ACCESS_TOKEN = os.getenv("ACCESS_TOKEN")
+    ACCESS_TOKEN_SECRET = os.getenv("ACCESS_TOKEN_SECRET")
 
-    BEARER = os .getenv(BEARER)
+    BEARER = os .getenv("BEARER")
     headers = {
         'Authorization': f'Bearer {BEARER}'
     }
