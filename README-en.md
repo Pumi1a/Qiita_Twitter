@@ -3,6 +3,8 @@
 ## Introduction
 I have built a system that posts articles from Qiita to Twitter in a random manner. However, it's not entirely random, it's more like repeating the shuffle feature on a music player. This is because the same articles might be posted repeatedly or there might be a bias. The system holds a list of articles posted on Qiita, shuffles them, and posts them to Twitter. When all articles have been posted, it returns to the beginning, reshuffles, and continues to post.
 
+Qiita is a Japanese information sharing site. Therefore, it might be a good idea to automatically post about personal blogs on Twitter or post articles from Stack Overflow.
+
 ## Environment
 * Raspberry Pi 4 Model B
   * CentOS Stream 8
