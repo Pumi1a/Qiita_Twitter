@@ -1,4 +1,4 @@
-[日本語版 README はこちら](https://github.com/Pumi1a/Qiita_Twitter/blob/main/README.md)
+[日本語版 README はこちら](https://github.com/Pumi1a/Qiita_Twitter/blob/main/README-ja.md)
 
 ## Introduction
 I have built a system that posts articles from Qiita to Twitter in a random manner. However, it's not entirely random, it's more like repeating the shuffle feature on a music player. This is because the same articles might be posted repeatedly or there might be a bias. The system holds a list of articles posted on Qiita, shuffles them, and posts them to Twitter. When all articles have been posted, it returns to the beginning, reshuffles, and continues to post.
