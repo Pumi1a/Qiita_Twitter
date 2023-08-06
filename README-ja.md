@@ -1,4 +1,4 @@
-[English README is here](https://github.com/Pumi1a/Qiita_Twitter/blob/main/README-en.md)
+[English README is here](https://github.com/Pumi1a/Qiita_Twitter/blob/main/README.md)
 
 Qiita にも記事として投稿してあります。記事リンクは[こちら](https://qiita.com/Pumila/items/b09b1f8532e129e1b16d)から。
 
