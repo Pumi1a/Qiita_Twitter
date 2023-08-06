@@ -45,7 +45,7 @@ def main():
                 tag_message = ""
                 for tag in item[2]:
                     tag_message += f"#{tag['name']} "
-                message = f"{item[0]}\n{item[1]} #Qiita {tag_message} @Pumi1aより"
+                message = f"{item[0]}\n{item[1]} #Qiita {tag_message} @{USER_NAME}より"
                 post_tweet(message)
                 time.sleep(3600)  # Wait for 1 hour
 
@@ -55,6 +55,7 @@ def main():
 
 if __name__ == "__main__":
     # Twitter API credentials
+    USER_NAME = os.getenv("USER_NAME")
     CONSUMER_KEY = os.getenv("CONSUMER_KEY")
     CONSUMER_SECRET = os.getenv("CONSUMER_SECRET")
     ACCESS_TOKEN = os.getenv("ACCESS_TOKEN")
